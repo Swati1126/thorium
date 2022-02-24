@@ -15,7 +15,7 @@ router.get('/movies/:movieId', function(req, res) {
     mov = ["Fukrey", "Delhi", "Dabang", "Rockstar", "Suryawanshi"]
     let value = req.params.movieId;
     if(value>mov.length-1) {
-        res.send('"Doesnt exist"')
+        res.send('"Doesnot exist"')
     } else {
         res.send(mov[value])
     }
