@@ -23,14 +23,14 @@ router.get('/Hello', function (req, res) {
     let month= ["january", "February", "march", "april", "May", "June", "July", "august", "sept", "oct",  "nov", "dec"]
 
        console.log(lodash.chunk(month,4)) 
-    res.send('welcome to functionup. im sunny chakrawarty and a part of functionup thorium')
+    res.send('welcome to functionup. im Swati chamoli and a part of functionup thorium')
 });
 
 router.get('/Hello3', function (req, res) {
     let movie= [['horror','The Shining'],['drama','Titanic'],['thriller','Shutter Island'],['fantasy','Pans Labyrinth']]
 
        console.log(lodash.fromPairs(movie)) 
-    res.send('welcome to functionup. im sunny chakrawarty and a part of functionup thorium')
+    res.send('welcome to functionup. im swati chamoli and a part of functionup thorium')
 });
 
 
@@ -43,7 +43,7 @@ router.get('/Hello2', function (req, res) {
     let arr5= [17,18,19,20,21]
    
     console.log(lodash.union(arr1,arr2,arr3,arr4,arr5)) 
-    res.send('welcome to functionup. im sunny chakrawarty and a part of functionup thorium')
+    res.send('welcome to functionup. im swati chamoli and a part of functionup thorium')
 });
 
 router.get('/Hello1', function (req, res) {
@@ -51,7 +51,7 @@ router.get('/Hello1', function (req, res) {
     
 
        console.log(lodash.tail(oddNumber)) 
-    res.send('welcome to functionup. im sunny chakrawarty and a part of functionup thorium')
+    res.send('welcome to functionup. im swati chamoli and a part of functionup thorium')
 });
 
 module.exports = router;
@@ -60,6 +60,6 @@ module.exports = router;
 //router.get('/test-me', function (req, res) {
     //obj.log('thorium')
     //console.log(obj.url)
-   // res.send('welcome to functionup. im sunny chakrawarty and a part of functionup thorium')
+   // res.send('welcome to functionup. im swati chamoli and a part of functionup thorium')
 //});
 
