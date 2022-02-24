@@ -20,7 +20,7 @@ router.post('/test-me2', function (req, res) {
     nameArray.push(req.body.name);
 
     
-    play.push(req.body)   // insert data in play array
+    play.push(req.body)   // 
 
     res.send(play)   //send response to client side 
     
