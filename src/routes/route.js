@@ -3,7 +3,8 @@ const router = express.Router();
 // const UserModel= require("../models/userModel.js")
 const UserController= require("../controllers/userController")
 const BookController= require("../controllers/bookController")
-
+const newUserController= require("../controllers/newUserController")
+const productController= require("../controllers/productController")
 router.get("/test-me", function (req, res) {
     res.send("My first ever api!")
 })
@@ -19,7 +20,12 @@ router.get("/getBooksData", BookController.getBooksData)
 router.post("/updateBooks", BookController.updateBooks)
 router.post("/deleteBooks", BookController.deleteBooks)
 
+router.post("/createNewUser", newUserController.createNewUser)
+router.post("/createProduct",productController.createProduct)
+
+
 //MOMENT JS
+
 const moment = require('moment');
 router.get("/dateManipulations", function (req, res) {
     

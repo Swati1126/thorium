@@ -22,8 +22,8 @@ TOPIC: Middleware2
 	balance:100, // Default balance at user registration is 100
 	address:"New delhi",
 	age: 90,
- 	gender: “female” // Allowed values are - “male”, “female”, “other”
-	isFreeAppUser: false // Default false value.
+ 	gen	isFreeAppUser: false // Default false value.
+der: “female” // Allowed values are - “male”, “female”, “other”
 	}
 ```
 
